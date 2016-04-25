@@ -1,0 +1,1 @@
+{ "options" : { "create" : "__kdtimeevents", "capped" : true, "size" : 52428800 }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "meteor.__kdtimeevents", "name" : "_id_" } ] }
