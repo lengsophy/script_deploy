@@ -7,8 +7,8 @@ sudo chmod 777 linux-class.pem
 wait
 sudo chmod 777 .
 wait
-date=$(date +"%m_%d_%Y")
-scp -i linux-class.pem ubuntu@54.173.194.74:/home/ubuntu/safir_dum_backup/$date/dump.zip .
+#date=$(date +"%m_%d_%Y")
+scp -i linux-class.pem ubuntu@54.173.194.74:/home/ubuntu/safir_dum_backup/$1/dump.zip .
 wait
 unzip dump.zip
 wait
