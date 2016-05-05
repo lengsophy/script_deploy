@@ -3,9 +3,11 @@ sudo apt-get install zip
 wait
 sudo apt-get install unzip
 wait
-sudo scp -i linux-class.pem ubuntu@54.173.194.74:/home/ubuntu/scpupload/upload.zip .
+sudo chmod 777 .
 wait
-unzip upload.zip
+sudo scp -i linux-class.pem ubuntu@52.87.200.238:/home/ubuntu/safir-upload/upload.zip .
 wait
-sudo rm upload.zip 
+#unzip upload.zip
+wait
+#sudo rm upload.zip 
 echo "Finish"
